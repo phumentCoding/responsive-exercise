@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        .navbar {
+            width: 100%;
+            background-color: gray;
+            padding: 30px 50px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+       
+
+        .left h1 {
+            font-size: 100px;
+        }
+
+        .content {
+            width: 80%;
+            background-color: green;
+            margin: auto;
+            margin-top: 50px;
+            display: grid;
+            grid-template-rows: 500px;
+            grid-template-columns: repeat(3,32%);
+            column-gap: 30px;
+        }
+        .card {
+            background-color: brown;
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <div class="left">
+            <h1>Responsive</h1>
+            <p>Web Desing</p> 
+        </div>
+        <div class="right">
+            <img src="https://scontent.fpnh18-4.fna.fbcdn.net/v/t39.30808-6/291899231_490273779567291_1388030499081494942_n.png?_nc_cat=105&ccb=1-7&_nc_sid=6ee11a&_nc_eui2=AeFpwPlIUFqXUREcCyVp4R_4zIeB493tZLfMh4Hj3e1ktxEtqHQtQsIv-olNBAKrRAbjLKUKYT3yd_-cKFcNjUia&_nc_ohc=3PaFCkQncGgQ7kNvgEvrpJ7&_nc_oc=AdkauSIJmLT_DHmg32vy6IUvcxH3FdAQIiEWcXzzmvYwXFWcQHGeA2XJu_kxTawtipM&_nc_zt=23&_nc_ht=scontent.fpnh18-4.fna&_nc_gid=oycZZaVcEyYv3fkmgeBSnQ&oh=00_AYEuBHkDh7lXvaYq2S7N00R7fHXy34QA1Y5ouDuYPNAqIA&oe=67EEB7C7" alt="">
+        </div>
+    </div>
+
+    <div class="content">
+        <div class="card"></div>
+        <div class="card"></div>
+        <div class="card"></div>
+    </div>
+
+</body>
+</html>
