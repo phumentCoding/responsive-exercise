@@ -38,6 +38,14 @@
         .card {
             background-color: brown;
         }
+
+        @media screen and (min-width:600px) and (max-width:900px) {
+            .content {
+                width: 90%;
+                grid-template-rows: 400px;
+                column-gap: 15px;
+            }
+        }
     </style>
 </head>
 <body>
@@ -52,9 +60,18 @@
     </div>
 
     <div class="content">
-        <div class="card"></div>
-        <div class="card"></div>
-        <div class="card"></div>
+        <div class="card">
+            <div class="img"></div>
+            <div class="desc"></div>
+        </div>
+        <div class="card">
+            <div class="img"></div>
+            <div class="desc"></div>
+        </div>
+        <div class="card">
+            <div class="img"></div>
+            <div class="desc"></div>
+        </div>
     </div>
 
 </body>
